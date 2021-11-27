@@ -1,0 +1,17 @@
+{
+  "id": "cc-cloudsave",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": {
+    "en_US": "Mod for syncing saves to the cloud.",
+    "ru_RU": "Мод для синхронизации сохранений в облако."
+  },
+  "homepage": "https://github.com/lexisother/cc-cloudsave-mod",
+  "icons": {
+    "24": "icon24.png"
+  },
+  "postload": "dist/postload.js",
+  "dependencies": {
+    "crosscode": "~1.4.1"
+  }
+}
